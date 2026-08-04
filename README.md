@@ -103,16 +103,17 @@ Monitoring stack implementation using:
 - Network Administrator — Faculty of Computer Science, Universitas Brawijaya
 - Teaching Assistant — SOI Asia APIE
 - Laboratory Teaching Assistant — Advanced Artificial Intelligence
-- APNIC60 Youth Fellow
-- APAN61 Fellow
-- APNGCamp18 Fellow
-- Selected ICANN87 Fellow
+- APNIC60 Youth Fellow 2025
+- APAN61 Fellow 2025
+- APNGCamp18 Fellow 2026
+- Selected ICANN87 Fellow 2026
 
 
 ## Certifications & Learning
 
 - APNIC Academy Courses
-- SOI Asia Internet Engineering Program
+- Internet Society Courses
+- SOI Asia Internet Engineering Program (APIE)
 - Cyber Defense Academy
 - EF SET English Certificate C1 Advanced
 
