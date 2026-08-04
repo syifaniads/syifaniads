@@ -8,10 +8,13 @@ My focus areas:
 
 🌐 Network Operations
 Building and troubleshooting enterprise network environments.
+
 🐧 Linux Infrastructure
 Managing Linux-based systems, services, and monitoring.
+
 ☁️ Cloud & DevOps
 Automating infrastructure deployment using containers and IaC.
+
 🔐 Security Operations
 Implementing SIEM, monitoring, and vulnerability assessment workflows.
 
