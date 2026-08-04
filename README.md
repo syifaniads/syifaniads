@@ -4,18 +4,21 @@
 
 I am an Informatics Engineering student at Universitas Brawijaya focusing on building reliable infrastructure through networking, cloud automation, Linux systems, and security monitoring.
 
-My interests include:
+My focus areas:
 
-- Network Operations
-- Cloud Infrastructure
-- Linux System Administration
-- DevOps Automation
-- Infrastructure Security
-- Security Monitoring
+🌐 Network Operations
+Building and troubleshooting enterprise network environments.
 
+🐧 Linux Infrastructure
+Managing Linux-based systems, services, and monitoring.
+
+☁️ Cloud & DevOps
+Automating infrastructure deployment using containers and IaC.
+
+🔐 Security Operations
+Implementing SIEM, monitoring, and vulnerability assessment workflows.
 
 ## Technical Focus
-
 
 ### Networking
 
