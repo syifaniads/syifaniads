@@ -1,127 +1,82 @@
-# Hi, I'm Syifani Adillah Salsabila 👋
+# Syifani Adillah Salsabila
 
-## Network & Cloud Infrastructure | Linux | DevOps | Security
+**Network & Infrastructure · DevOps / Platform · Security · IAM**
 
-I am an Informatics Engineering student at Universitas Brawijaya focusing on building reliable infrastructure through networking, cloud automation, Linux systems, and security monitoring.
+I am an Informatics Engineering student at Universitas Brawijaya building hands-on infrastructure, security, and distributed-systems projects. My public repositories are curated as engineering case studies: each flagship project exposes the architecture, implementation details, validation method, limitations, and provenance instead of only showing a finished UI.
 
-My focus areas:
+[LinkedIn](https://www.linkedin.com/in/syifaniadillahsalsabila/) · [Portfolio repositories](https://github.com/syifaniads?tab=repositories)
 
-🌐 Network Operations
-Building and troubleshooting enterprise network environments.
+## Engineering focus
 
-🐧 Linux Infrastructure
-Managing Linux-based systems, services, and monitoring.
+| Area | What I work on |
+|---|---|
+| Infrastructure & Linux | Linux administration, service operation, Docker, system troubleshooting, observability, deployment runbooks |
+| Networking | TCP/IP, routing & switching, OSPF, VLANs, segmentation, firewall/NAT/VPN, DNS, secure overlays |
+| DevOps / Platform | CI/CD, Docker/Compose/Swarm, Kubernetes, GitHub Actions, Jenkins, registry/image workflows, deployment validation |
+| Security | SIEM, vulnerability assessment, SAST/DAST, Wazuh, threat intelligence, hardening, security monitoring |
+| Identity | Active Directory, PowerShell automation, IAM/IGA, JML, RBAC, SoD, access governance |
 
-☁️ Cloud & DevOps
-Automating infrastructure deployment using containers and IaC.
+## Featured engineering projects
 
-🔐 Security Operations
-Implementing SIEM, monitoring, and vulnerability assessment workflows.
+### [Wazuh SIEM Security Monitoring](https://github.com/syifaniads/wazuh-siem-security-monitoring)
 
-## Technical Focus
+Centralized security-monitoring case study using Wazuh with Graylog and MISP workflows. The repository includes sanitized real dashboard evidence, architecture, agent onboarding, FIM, vulnerability visibility, ATT&CK-oriented analysis, monitoring findings, and security configuration examples.
 
-### Networking
+<p align="center">
+  <img src="https://raw.githubusercontent.com/syifaniads/wazuh-siem-security-monitoring/main/screenshots/wazuh-overview-dashboard-sanitized.png" alt="Sanitized Wazuh dashboard evidence" width="850" />
+</p>
 
-- TCP/IP
-- Routing & Switching
-- OSPF
-- BGP
-- IPv6
-- VLAN
-- Firewall Configuration
-- Network Troubleshooting
+### [KnowHub DevOps Platform](https://github.com/syifaniads/knowhub-devops-platform)
 
+Containerized React / Node.js / PostgreSQL platform with GitHub Actions → GHCR delivery, Docker Swarm orchestration, Docker Secrets/Config, overlay networking, replicated application services, Prometheus, Grafana, and production-hardening notes.
 
-### Cloud & Infrastructure
+### [Enterprise Identity Security Lab](https://github.com/syifaniads/enterprise-identity-security-lab)
 
-- Linux Administration
-- Docker
-- Docker Compose
-- Kubernetes
-- Terraform
-- AWS
-- CI/CD Pipeline
+Evidence-based Active Directory and IAM/IGA portfolio covering safe PowerShell provisioning, AD security assessment, password/account-control review, JML, RBAC, SoD, access certification design, patching/recovery runbooks, and PowerShell quality gates.
 
+### [OJS DevSecOps Security Assessment](https://github.com/syifaniads/ojs-devsecops-security-assessment)
 
-### Security
+Authorized application-security assessment covering lab setup, attack-surface mapping, STRIDE/CIA threat modeling, SAST, DAST, manual validation, CVSS risk treatment, remediation, and re-testing. Includes custom Semgrep rules and explicit evidence/attribution boundaries.
 
-- SIEM Implementation
-- Wazuh
-- Graylog
-- OpenSearch
-- MISP
-- Vulnerability Assessment
-- Security Monitoring
+### [Enterprise Network Security GNS3 Lab](https://github.com/syifaniads/enterprise-network-security-gns3-lab)
 
+Enterprise network lab documenting segmentation, OSPF, switching redundancy, DNS resilience, firewall/NAT/VPN design, security testing, representative Cisco/Open vSwitch configuration, and validation matrices.
 
-## Featured Projects
+### [Go Reserve DevSecOps Platform](https://github.com/syifaniads/go-reserve-devsecops-platform)
 
+Collaborative room-reservation platform presented as a sanitized DevSecOps case study: TanStack Start, TypeScript, Prisma/PostgreSQL, session-based auth, reservation conflict logic, Docker, and Jenkins deployment flow.
 
-### 🔐 Enterprise SIEM Platform
+## Additional technical case studies
 
-Centralized security monitoring environment using:
+- [Zero-Trust NetBird Secure Overlay](https://github.com/syifaniads/zero-trust-netbird-secure-overlay)
+- [Server Administration Infrastructure Lab](https://github.com/syifaniads/server-administration-infrastructure-lab)
+- [Kubernetes Lab](https://github.com/syifaniads/K8S)
+- [LLM vs Semgrep SAST Comparison](https://github.com/syifaniads/llm-semgrep-sast-comparison)
+- [NS-3 Wi-Fi Jamming Throughput Analysis](https://github.com/syifaniads/ns3-wifi-jamming-throughput-analysis)
+- [NS-3 Wireless Sensor Network Routing](https://github.com/syifaniads/ns3-wireless-sensor-network-routing)
+- [Federated Learning Mobile Activity Recognition](https://github.com/syifaniads/federated-learning-mobile-activity-recognition)
+- [Filkom Travel — Java OOP](https://github.com/syifaniads/filkom-travel-oop-java)
 
-- Wazuh
-- Graylog
-- OpenSearch
-- MISP
-- Docker
+## How I document projects
 
-Collected and analyzed more than 663,000 security events.
+For portfolio repositories I try to make the engineering review path explicit:
 
+```text
+problem / requirements
+        ↓
+architecture & design decisions
+        ↓
+implementation artifacts
+        ↓
+validation / tests / evidence
+        ↓
+limitations & production gaps
+        ↓
+runbook / operational reasoning
+```
 
-### ☁️ AWS CI/CD Infrastructure
+I intentionally separate **what was actually implemented** from later portfolio reconstruction or production-hardening recommendations. Collaborative projects also keep attribution and source-evidence notes instead of presenting team work as sole authorship.
 
-Infrastructure automation project using:
+## Current direction
 
-- AWS
-- Terraform
-- Jenkins
-- Docker
-- Docker Compose
-
-
-### 🌐 Enterprise Network Architecture Lab
-
-Network design and implementation covering:
-
-- Routing
-- OSPF
-- VLAN
-- Firewall
-- Network segmentation
-
-
-### 📊 Linux Monitoring Infrastructure
-
-Monitoring stack implementation using:
-
-- Linux
-- Prometheus
-- Grafana
-
-
-## Experience
-
-- Network Administrator — Faculty of Computer Science, Universitas Brawijaya
-- Teaching Assistant — SOI Asia APIE
-- Laboratory Teaching Assistant — Advanced Artificial Intelligence
-- APNIC60 Youth Fellow 2025
-- APAN61 Fellow 2025
-- APNGCamp18 Fellow 2026
-- Selected ICANN87 Fellow 2026
-
-
-## Certifications & Learning
-
-- APNIC Academy Courses
-- Internet Society Courses
-- SOI Asia Internet Engineering Program (APIE)
-- Cyber Defense Academy
-- EF SET English Certificate C1 Advanced
-
-
-## Connect With Me
-
-LinkedIn:
-https://www.linkedin.com/in/syifaniadillahsalsabila/
+I am focusing on roles around **Network / Infrastructure Engineering, Cloud / DevOps / Platform, Linux Systems, Security Operations, and IAM / Cloud Security**.
